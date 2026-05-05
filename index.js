@@ -28,17 +28,17 @@ bot.on("channel_post", async (msg) => {
 
     setTimeout(async () => {
 
-      console.log("📤 Sending Order...");
+      console.log("📤 𝕻𝖑𝖆𝖈𝖎𝖓𝖌 𝕺𝖗𝖉𝖊𝖗...");
 
       await axios.post(API_URL, {
         key: API_KEY,
         action: "add",
         service: "1023",
         link: postLink,
-        quantity: 100
+        quantity: 110
       });
 
-      console.log("✅ Order Sent");
+      console.log("✅ 𝓞𝓻𝓭𝓮𝓻 𝓢𝓾𝓬𝓬𝓮𝓼𝓼𝓯𝓾𝓵𝓵");
 
     }, delay);
 
