@@ -24,7 +24,7 @@ bot.on("channel_post", async (msg) => {
 
     console.log("🚀 New Post:", postLink);
 
-    const delay = 10000 + Math.floor(Math.random() * 10000);
+    const delay = 3000 + Math.floor(Math.random() * 5000);
 
     setTimeout(async () => {
 
@@ -35,7 +35,7 @@ bot.on("channel_post", async (msg) => {
         action: "add",
         service: "1023",
         link: postLink,
-        quantity: 300
+        quantity: 100
       });
 
       console.log("✅ Order Sent");
