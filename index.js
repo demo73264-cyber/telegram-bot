@@ -1,8 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-console.log("BOT_TOKEN:", process.env.BOT_TOKEN);
-console.log("API_KEY:", process.env.API_KEY);
 console.log("Bot starting...");
 
 // ✅ ENV variables use karo
