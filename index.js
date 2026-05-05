@@ -10,7 +10,7 @@ const API_KEY = process.env.API_KEY;
 const bot = new TelegramBot(token, { polling: true });
 
 const channel = "@Dnexon55Pros";
-const API_URL = "https://telekartsmm.com/api/v2";
+const API_URL = "https://justanotherpanel.com/api/v2";
 
 // ✅ Duplicate protection
 let processedPosts = new Set();
