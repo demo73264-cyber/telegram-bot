@@ -28,7 +28,7 @@ bot.on("channel_post", async (msg) => {
 
     setTimeout(async () => {
 
-      console.log("📤 𝕻𝖑𝖆𝖈𝖎𝖓𝖌 𝕺𝖗𝖉𝖊𝖗...");
+      console.log("📤𝕻𝖑𝖆𝖈𝖎𝖓𝖌 𝕺𝖗𝖉𝖊𝖗...");
 
       await axios.post(API_URL, {
         key: API_KEY,
