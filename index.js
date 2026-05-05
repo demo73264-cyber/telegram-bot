@@ -24,7 +24,7 @@ bot.on("channel_post", async (msg) => {
 
     console.log("🚀 New Post:", postLink);
 
-    const delay = 3000 + Math.floor(Math.random() * 5000);
+    const delay = 1000 + Math.floor(Math.random() * 3000);
 
     setTimeout(async () => {
 
