@@ -33,7 +33,7 @@ bot.on("channel_post", async (msg) => {
       await axios.post(API_URL, {
         key: API_KEY,
         action: "add",
-        service: "1023",
+        service: "5160",
         link: postLink,
         quantity: 110
       });
